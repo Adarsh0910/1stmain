@@ -1,0 +1,93 @@
+body {
+  width: 450px;
+  height: 450px;
+}
+/*yellow pattern*/
+.yellow {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+.yellow_full {
+    position: absolute;
+    background-color:#cc9900;
+    height:100%;
+    width:100%;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+}
+.yellow .above_quater {
+    position: absolute;
+    background-color:#fff;
+    height:49%;
+    width: 51%;
+    -moz-border-radius: 51px 0 50px 0;
+    border-radius: 51px 0 50px 0;
+}
+.yellow .below_quater {
+    position: absolute;
+    top: 50%;
+    background-color:#fff;
+    height:51%;
+    width: 49%;
+    -moz-border-radius: 0 50px 0 51px;
+    border-radius: 0 50px 0 51px;
+}
+/*blue pattern*/
+#blue_circles {
+  position: relative;
+  left: 50px;
+  top: -350px;
+}
+.blue {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+.blue_full {
+    position: absolute;
+    background-color:#004466;
+    height:100%;
+    width:100%;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+}
+.blue .above_quater {
+    position: absolute;
+    left: 50%;
+    background-color:#fff;
+    height:49%;
+    width: 51%;
+    -moz-border-radius: 0 51px 0 50px;
+    border-radius: 0 51px 0 50px;
+}
+.blue .below_quater {
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    background-color:#fff;
+    height:51%;
+    width: 49%;
+    -moz-border-radius: 51px 0 50px 0;
+    border-radius: 51px 0 50px 0;
+}
+/*green*/
+.green_above {
+    position: absolute;
+    background-color:#4d4d00;
+    height:49%;
+    width: 51%;
+    -moz-border-radius: 51px 0 50px 0;
+    border-radius: 51px 0 50px 0;
+}
+.green_below {
+    position: absolute;
+    top: 50%;
+    background-color:#4d4d00;
+    height:51%;
+    width: 49%;
+    -moz-border-radius: 0 50px 0 51px;
+    border-radius: 0 50px 0 51px;
+}
